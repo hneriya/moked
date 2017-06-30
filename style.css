@@ -242,7 +242,7 @@ h6 {
 
 @media screen and (min-width: 1200px) {
     #home h1 {
-        font-size: 142px;
+        font-size: 95px;
         line-height: 124px;
     }
     #home h5 {
@@ -254,7 +254,11 @@ h6 {
 /*--- management ---*/
 
 #management {
-    background: #EBEAEA;
+    background: #9C9C9C;
+}
+
+#management h1 {
+    color: #1a1a1a;
 }
 
 .thumbnail {
@@ -295,28 +299,28 @@ h6 {
 
 
 /*.content-section .thumbnail:after {
-    font-family: 'FontAwesome';
-    content: '\f121';
-    color: #FFF;
-    font-size: 48px;
-    line-height: 80px;
-    top: 70%;
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    transition: all .35s;
-    opacity: 0;
-    width: 86px;
-    height: 86px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    border-radius: 50%;
-    background: transparent;
-    border: 3px solid transparent;
-  }*/
+        font-family: 'FontAwesome';
+        content: '\f121';
+        color: #FFF;
+        font-size: 48px;
+        line-height: 80px;
+        top: 70%;
+        position: absolute;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        transition: all .35s;
+        opacity: 0;
+        width: 86px;
+        height: 86px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        border-radius: 50%;
+        background: transparent;
+        border: 3px solid transparent;
+      }*/
 
 .content-section .thumbnail:hover:after {
     top: 25%;
@@ -327,11 +331,25 @@ h6 {
 }
 
 
+/*PRODUCTION & QUALITY*/
+
+#productionQuality {
+    background: #C9CED2;
+}
+
+#productionQuality h1 {
+    color: #1a1a1a;
+}
+
+
 /*--- CONTACT ---*/
 
 #contact {
-    background: url('https://cdn.pixabay.com/photo/2016/01/18/16/44/silhouette-1146882_960_720.jpg') no-repeat top center fixed;
-    background-size: cover;
+    background: #C9CED2;
+}
+
+#contact h1 {
+    color: #1a1a1a;
 }
 
 .social-cont {
