@@ -18,8 +18,8 @@ h6 {
 }
 
 .content-section {
-    min-height: 100vh;
-    padding-top: 70px;
+    min-height: 100%;
+    padding-top: 2%;
     padding-bottom: 20px;
 }
 
@@ -63,8 +63,8 @@ h6 {
 
 @media screen and (min-width: 768px) {
     .content-section {
-        padding-top: 130px;
-    }
+    /*    padding-top: 1%;
+*/    }
     .content-section h1 {
         font-size: 34px;
     }
@@ -75,8 +75,8 @@ h6 {
 
 @media screen and (min-width: 992px) {
     .content-section {
-        padding-top: 160px;
-    }
+    /*    padding-top: 1%;
+*/    }
     .content-section h1 {
         font-size: 38px;
     }
@@ -91,8 +91,8 @@ h6 {
 
 @media screen and (min-width: 1200px) {
     .content-section {
-        padding-top: 160px;
-    }
+    /*    padding-top: 1%;
+*/    }
     .content-section h1:after {
         padding-top: 7px;
     }
@@ -198,6 +198,8 @@ h6 {
     background-size: cover;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
     text-align: center;
+    min-height: 100vh;
+    padding-top: 10%;
 }
 
 #home h1 {
@@ -426,4 +428,15 @@ a.btn-default:focus {
 
 a.btn-default:hover:after {
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-weight: 700;
+    color: #1a1a1a;
+    font-family: 'Montserrat', serif;
+    background: #FFFFFF;
+/*    padding-top: 1%;
+*/    padding-bottom: 1%;
+    font-size: 115%;
 }
