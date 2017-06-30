@@ -312,10 +312,70 @@
     <div id="contact" class="content-section">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h1>Contact Us</h1>
-                    <h4> 27 Halutzei Hataasia Str., P.O.B 10173, Haifa Bay, ISRAEL 26111 </h4>
-                    <h4> Tel.: 972-4-8729747, Fax.: 972-4-8721846 </h4>
+                <h1>Contact:</h1>
+                <br><br>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="well well-sm">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name"> Name:</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="company"> Company:</label>
+                                        <input type="text" class="form-control" id="company" placeholder="Company" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="department"> Department:</label>
+                                        <input type="text" class="form-control" id="department" placeholder="Department" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="department"> Tel.:</label>
+                                        <input type="tel" class="form-control" id="telephone" placeholder="telephone" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email"> Email Address:</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="16" cols="25" required="required" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                        Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+                        <address>
+                            <strong>Moked Ltd.</strong>
+                            <br> 27 Halutzei Hataasia Str.
+                            <br> P.O.B 10173
+                            <br> Haifa Bay, Israel 26111
+                            <br>
+                            <br>
+                            <abbr title="Phone">
+                            </abbr>
+                            Tel.: 972-4-8729747
+                            <br> Fax.: 972-4-8721846
+                        </address>
+                        <address>
+                            <a href="mailto:#">contact@mokedltd.com</a>
+                        </address>
+                    </form>
                 </div>
             </div>
         </div>
