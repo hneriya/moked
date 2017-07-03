@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', serif;
+    font-family: 'Avant Garde', serif;
     font-weight: 700;
     color: #1a1a1a;
 }
@@ -194,16 +194,19 @@ h6 {
 /*--- HOME ---*/
 
 #home {
-    background: url('http://www.hlpmc.com.tw/wp-content/uploads/2014/12/en_aerospace02.jpg') no-repeat center center fixed;
-    background-size: cover;
+   /* background-image: url("airplane-building2.jpg");*/
+   background-color: gray;
+/*    background: url('http://www.hlpmc.com.tw/wp-content/uploads/2014/12/en_aerospace02.jpg') no-repeat center center fixed;
+*/    background-size: cover;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
     text-align: center;
     min-height: 100vh;
     padding-top: 10%;
 }
 
+
 #home h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Avant Garde', sans-serif;
     font-size: 96px;
     color: black;
     display: inline-block;
@@ -219,7 +222,7 @@ h6 {
 
 #home h5 {
     font-size: 16px;
-    color: #555;
+    color: black;
 }
 
 @media screen and (min-width: 768px) {
@@ -434,9 +437,15 @@ footer {
     text-align: center;
     font-weight: 700;
     color: #1a1a1a;
-    font-family: 'Montserrat', serif;
+    font-family: 'Avant Garde', serif;
     background: #FFFFFF;
 /*    padding-top: 1%;
 */    padding-bottom: 1%;
     font-size: 115%;
 }
+
+/*google maps*/
+#map {
+  height: 300px;
+  width: 100%;
+ }
