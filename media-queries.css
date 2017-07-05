@@ -18,6 +18,7 @@
     }
     .navbar-header .navbar-brand {
         height: 70px;
+        color: blue;
         padding: 40px 0 0 15px;
         font-size: 42px;
     }
