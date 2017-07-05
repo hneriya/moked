@@ -1,0 +1,101 @@
+
+@media screen and (min-width: 768px) {
+    .content-section {
+        padding-top: 1%; 
+    }
+    .content-section h1 {
+        font-size: 34px;
+    }
+    .content-section p.lead {
+        margin-bottom: 30px;
+    }
+    .navbar-default {
+        height: 16%;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-header .navbar-brand {
+        height: 70px;
+        padding: 40px 0 0 15px;
+        font-size: 42px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 5px 25px 5px 0;
+
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #E64B36;
+    }
+    #home h1 {
+        font-size: 120px;
+        line-height: 114px;
+    }
+    #home h5 {
+        font-size: 25px;
+    }
+    .thumbnail.hidden2{
+/*        display: none;
+*/        border-color: green;
+            border-width: 2px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content-section {
+        padding-top: 1%; 
+    }
+    .content-section h1 {
+        font-size: 38px;
+    }
+    .content-section h1:after {
+        padding-top: 5px;
+    }
+    .content-section p.lead {
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+    .navbar-default {
+        height: 15%;
+    }
+    .navbar-header .navbar-brand {
+        height: 80px;
+        padding: 45px 0 0 15px;
+        font-size: 48px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding: 10px 25px 5px 0;
+        border-bottom: 1px solid #DFDFDF;
+
+    }
+    #home h1 {
+        font-size: 132px;
+        margin-top: 70px;
+    }
+    #home h5 {
+        font-size: 28px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .content-section {
+            padding-top: 1%; 
+    }
+    .content-section h1:after {
+        padding-top: 7px;
+    }
+    .content-section p.lead {
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    #home h1 {
+        font-size: 95px;
+        line-height: 124px;
+    }
+    #home h5 {
+        font-size: 32px;
+    }
+}
